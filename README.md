@@ -12,3 +12,6 @@ npm run dev
 # build project
 npm run build
 ```
+
+Preview available
+[a Charlotte preview](https://leopoldo.me/charlotte)
