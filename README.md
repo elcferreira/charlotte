@@ -14,4 +14,4 @@ npm run build
 ```
 
 Preview available
-[a Charlotte preview](https://leopoldo.me/charlotte)
+[Charlotte preview](https://leopoldo.me/charlotte)
