@@ -1,0 +1,70 @@
+/* --------------------------------------------------
+   Resets
+   -------------------------------------------------- */
+
+/* reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, blockquote, pre, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label,legend, table, caption, tbody, tfoot, thead, tr, th, td, figure, picture { margin: 0px; padding: 0px; border: 0; font-weight: normal; font-style: normal; text-decoration: none; list-style: none; }  body { margin: 0; font-family: 'Heebo', sans-serif; font-weight: 400; }  a, a:active, a:visited, a:hover { cursor: pointer; text-decoration: none; }
+
+/* polyfill */
+header, nav, section, article, main, aside, footer { display: block }
+
+/* global box-sizing */
+*, *:after, *:before { -moz-box-sizing: border-box; box-sizing: border-box; }
+
+/* font-sizing */
+html { font-size: 62.5% }  /* html element 62.5% font-size for REM use */
+
+/* fontes otimizadas para leitura de artigos */
+article { -webkit-font-smoothing: antialiased; font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+
+/* clearfix */
+.clear:before, .clear:after { content: " "; display: table } .clear:after { clear: both } .clear { *zoom: 1; } .clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden} .clearfix { display: block; height: 1% } .clearfix:before, .clearfix:after { content: " "; display: table; } .clearfix:after { clear: both; } .clearfix { *zoom: 1; }
+
+/* width by container */
+img { max-width: 100%; width: 100%; vertical-align: bottom; height: auto; }
+
+
+/* --------------------------------------------------
+   Default wordpress classes
+   -------------------------------------------------- */
+
+/* default wordpress align classes */
+.alignnone   { margin:  5px 20px 20px  5px; }
+.aligncenter { margin:  5px auto  5px auto; }
+.alignright  { margin:  5px  0px 20px 20px; float: right; }
+.alignleft   { margin:  5px 20px  5px  0px; float: left; }
+
+/* default wordpress img captions */
+.wp-caption.alignnone  { margin:  5px  0px; }
+.wp-caption.alignleft  { margin:  5px 20px  5px  0px; }
+.wp-caption.alignright { margin:  5px  0px  5px 20px; }
+
+.wp-caption .size-full { width: 100%; height: auto; }
+
+/* gallery */
+.gallery-caption, .wp-caption p.wp-caption-text { font-size: 1.3em;  margin: 0; color: #67b4b9; font-weight: bold; font-style: italic; }
+
+/* comments */
+.sticky { }
+.bypostauthor { }
+
+
+/* --------------------------------------------------
+   text
+   -------------------------------------------------- */
+
+/* paragraph */
+p { font-size: 1.4em; margin: 20px 0; }
+
+/* bold */
+b, strong { font-weight: bold; }
+
+/* Italic */
+i, em { font-style: italic; }
+
+/* Listagem */
+ul li { list-style: inside disc; }
+ol li { list-style: inside decimal; }
+
+/* print */
+@media print { .do-not-print { display: none } #comments { page-break-before: always } body { width: 100% !important; margin: 0 !important; padding: 0 !important; line-height: 1.4; word-spacing: 1.1pt; letter-spacing: 0.2pt; font-family: Garamond,"Times New Roman", serif; color: #000; background: none; font-size: 12pt } h1,h2,h3,h4,h5,h6 { font-family: Helvetica, Arial, sans-serif } h1 { font-size: 19pt } h2 { font-size: 17pt } h3 { font-size: 15pt } h4,h5,h6 { font-size: 12pt } code { font: 10pt Courier, monospace } blockquote { margin: 1.3em; padding: 1em } img { display: block; margin: 1em 0 } a img { border: none } table { margin: 1px; text-align: left } th { border-bottom: 1px solid #333;  font-weight: bold } td { border-bottom: 1px solid #333 } th, td { padding: 4px 10px 4px 0 } caption { background: #fff; margin-bottom: 2em; text-align: left } thead { display: table-header-group } tr { page-break-inside: avoid } a { text-decoration: none; color: black } }

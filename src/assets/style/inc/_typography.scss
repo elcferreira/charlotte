@@ -1,0 +1,73 @@
+/* 
+   Type <3
+*/
+
+// styles
+.light {
+	font-weight: 300;
+}
+
+
+.semi-bold {
+  font-weight: 600;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.tac {
+	text-align: center;
+}
+
+.ttu {
+	text-transform: uppercase;
+}
+
+// family fonts
+.font__heebo {
+  font-family: 'Heebo', sans-serif;
+}
+
+.font__montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+// font size
+.fz__12 {
+  font-size: 1.2em;
+}
+
+.fz__14 {
+  font-size: 1.4em;
+}
+
+.fz__15 {
+  font-size: 1.5em;
+}
+
+.fz__16 {
+  font-size: 1.6em;
+}
+
+.fz__30 {
+  font-size: 3.0em;
+}
+
+.fz__32 {
+  font-size: 3.2em;
+}
+
+@media (min-width: 48em) {
+  .fz__76--48em {
+    font-size: 7.6em;
+  }
+
+  .fz__22--48em {
+    font-size: 2.2em;
+  }
+}
