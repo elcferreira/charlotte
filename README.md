@@ -13,5 +13,5 @@ npm run dev
 npm run build
 ```
 
-Preview available
+DEMO:
 [Charlotte](https://leopoldo.me/charlotte)
