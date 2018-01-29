@@ -29,24 +29,6 @@ Vue.use(VueResource)
 
 Vue.use(VueMq, { breakpoints: { s: 500, m: 800, l: 1200, xl: Infinity }})
 
-
-          //selectedValue: new Date(),
-          //disabledDates: { weekdays: [1, 7] },
-          //showCaps: true,
-          //showPopover: false,
-          //showDisabledDates: false,
-          //popoverExpanded: false,
-          //popoverVisibility: 'visible',
-          //popoverDirection: 'bottom',
-          //popoverAlign: 'left',
-          //themeStyles: {
-            // wrapper: { backgroundColor: '#fff', border: '0px solid' },
-            // header: { borderWidth: '1px 0 0 0', borderStyle: 'solid', borderColor: '#e2e2e2' },
-            // headerTitle: { fontFamily: 'Heebo, sans-serif', color: '#686868', fontSize: '1.28em' },
-            // weekdays: { fontFamily: 'Heebo, sans-serif', padding: '.2em 0 0.8em', color: '#c1c1c1', fontSize: '1.25em', textTransform: 'uppercase', borderWidth: '0 0 1px 0', borderStyle: 'solid', borderColor: '#e2e2e2' },
-            // dayContent: { fontFamily: 'Heebo, sans-serif', fontSize: '1.11em' }
-          // }
-
 Vue.use(VCalendar, 
  {
   componentPrefix: 'v',
